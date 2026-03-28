@@ -1,0 +1,22 @@
+{
+  "name": "veilo-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --import=tsx/esm --watch src/index.ts",
+    "build": "tsc",
+    "start": "node --env-file=.env dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.8.2",
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^17.3.1",
+    "hono": "^4.4.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
