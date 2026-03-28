@@ -1,0 +1,16 @@
+{
+  "program": "veilo_market_usad_v1.aleo",
+  "version": "0.27.0",
+  "description": "Veilo \u2014 USAD variant of the prediction market (identical logic, USAD token)",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "credits.aleo",
+      "location": "network"
+    },
+    {
+      "name": "test_usad_stablecoin.aleo",
+      "location": "network"
+    }
+  ]
+}

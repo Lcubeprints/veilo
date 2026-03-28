@@ -1,0 +1,16 @@
+{
+  "program": "veilo_market_usad_v2.aleo",
+  "version": "0.27.0",
+  "description": "Veilo v2 — Oracle Accuracy Score + Skin-in-the-Game voting. USAD stablecoin variant.",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "credits.aleo",
+      "location": "network"
+    },
+    {
+      "name": "test_usad_stablecoin.aleo",
+      "location": "network"
+    }
+  ]
+}

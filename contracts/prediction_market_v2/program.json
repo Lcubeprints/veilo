@@ -1,0 +1,12 @@
+{
+  "program": "veilo_market_v2.aleo",
+  "version": "0.27.0",
+  "description": "Veilo v2 — Adds Oracle Accuracy Score (per-voter accuracy tracking + bonus) and Skin-in-the-Game voting (vote_with_shares). ALEO token variant.",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "credits.aleo",
+      "location": "network"
+    }
+  ]
+}

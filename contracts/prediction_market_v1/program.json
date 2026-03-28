@@ -1,0 +1,12 @@
+{
+  "program": "veilo_market_v1.aleo",
+  "version": "0.27.0",
+  "description": "Veilo \u2014 Privacy-preserving prediction market with 8-outcome FPMM AMM, multi-voter resolution, and dispute system (ALEO)",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "credits.aleo",
+      "location": "network"
+    }
+  ]
+}
